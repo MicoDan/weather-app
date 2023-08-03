@@ -12,11 +12,6 @@ _This project basically serves as an example app I refer to within an article ab
 I wrote for the German web technology magazine [t3n no. 34](http://t3n.de/news/t3n-34-fertig-100-wichtigsten-netzkoepfe-508528/)._
 
 
-## Demo
-
-A demo site running this little app can be found [here](http://w4.matthiaslienau.de/angular-openweather-app/app/).
-
-
 ## Why?
 
 Points of interests:
@@ -44,7 +39,7 @@ angular-openweather-app uses:
 via git and npm:
 
 ```
-$ git clone git@github.com:atufkas/angular-openweather-app.git [my-app-name]
+$ git clone https://github.com/MicoDan/weather-app
 $ cd [my-app-name]
 $ npm install
 ```
@@ -90,7 +85,6 @@ for desktop and mobile use?
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=atufkas/angular-openweather-app&type=Date)](https://star-history.com/#atufkas/angular-openweather-app&Date)
 
 
 ## License
