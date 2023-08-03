@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" ng-app="openWeatherApp">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>OpenWeather App</title>
+        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/app.css"/>
+    </head>
+    <body>
+        <a href="https://github.com/atufkas/angular-openweather-app"><img style="position: absolute; top: 0; right: 0; border: 0;z-index: 9999;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+        <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">OpenWeather App <span app-version></span></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="#/forecast">Forecast</a></li>
+                    <li class=""><a href="#/storm"><span class="label label-danger">Wind over Nothern Germany</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div ng-view></div>
+        </div>
+        <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+            <small>
+                <span class="navbar-text">An AngularJS app created by <a href="http://matthiaslienau.de">Matthias Lienau</a>.
+                Clone and contribute on <a href="http://github.com/atufkas/angular-openweather-app">GitHub</a>.
+                This app uses the great api of the <a href="http://openweathermap.org/">Open Weather Map</a> project.</span>
+            </small>
+        </nav>
+        <script src="lib/angular-1.2.32/angular.js"></script>
+        <script src="lib/angular-1.2.32/angular-route.js"></script>
+        <script src="lib/angular-1.2.32/angular-resource.js"></script>
+        <script src="lib/iso-3166-country-codes-angular/iso-3166-country-codes-angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/filters.js"></script>
+        <script src="js/directives.js"></script>
+    </body>
+</html>

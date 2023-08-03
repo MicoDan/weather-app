@@ -1,0 +1,19 @@
+/* app css stylesheet */
+
+body {
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+
+.weather.panel {
+    /*font-weight: lighter !important;*/
+}
+
+.weather.panel .panel-heading {
+    font-weight: lighter !important;
+    font-size: 1.2em;
+}
+
+.weather.panel .panel-footer {
+    font-weight: lighter !important;
+}
