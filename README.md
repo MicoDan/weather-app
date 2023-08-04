@@ -11,6 +11,9 @@ service for fetching and displaying weather data and forecasts based on a given 
 _This project basically serves as an example app I refer to within an article about AngularJS
 I wrote for the German web technology magazine [t3n no. 34](http://t3n.de/news/t3n-34-fertig-100-wichtigsten-netzkoepfe-508528/)._
 
+##DEMO  
+http://playground.matthiaslienau.de/angular-openweather-app/app/#/forecast
+
 
 ## Why?
 
